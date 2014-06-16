@@ -1,4 +1,4 @@
-Ghost-House-1.1
+Ghost-House
 ===============
 
 Proof of concept for Flappy Bird game for iOS
