@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3077B3D194B85320081F7E0 /* pillar2.png in Resources */ = {isa = PBXBuildFile; fileRef = C3077B3B194B85320081F7E0 /* pillar2.png */; };
+		C31D1179194C9A0F00413F7F /* background3.png in Resources */ = {isa = PBXBuildFile; fileRef = C31D1178194C9A0F00413F7F /* background3.png */; };
+		C31D117B194C9AD500413F7F /* gameover.png in Resources */ = {isa = PBXBuildFile; fileRef = C31D117A194C9AD500413F7F /* gameover.png */; };
+		C31D1D45194EF92400046EBA /* mainbackground2.png in Resources */ = {isa = PBXBuildFile; fileRef = C31D1D44194EF92400046EBA /* mainbackground2.png */; };
+		C31DECC0194EEB36003BEBCE /* boo down transparent.png in Resources */ = {isa = PBXBuildFile; fileRef = C31DECBC194EEB36003BEBCE /* boo down transparent.png */; };
+		C31DECC1194EEB36003BEBCE /* boo transparent.png in Resources */ = {isa = PBXBuildFile; fileRef = C31DECBD194EEB36003BEBCE /* boo transparent.png */; };
+		C31DECC2194EEB36003BEBCE /* play game transparent.png in Resources */ = {isa = PBXBuildFile; fileRef = C31DECBE194EEB36003BEBCE /* play game transparent.png */; };
+		C31DECC3194EEB36003BEBCE /* start transparent.png in Resources */ = {isa = PBXBuildFile; fileRef = C31DECBF194EEB36003BEBCE /* start transparent.png */; };
+		C321E028194CABE500DCCD10 /* exit.png in Resources */ = {isa = PBXBuildFile; fileRef = C321E027194CABE500DCCD10 /* exit.png */; };
+		C344B529194C1051007020E7 /* toppillar.png in Resources */ = {isa = PBXBuildFile; fileRef = C344B528194C1051007020E7 /* toppillar.png */; };
+		C344B52B194C105B007020E7 /* bottompillar.png in Resources */ = {isa = PBXBuildFile; fileRef = C344B52A194C105B007020E7 /* bottompillar.png */; };
+		C35762B6194B75F6000DB7F8 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = C35762B5194B75F6000DB7F8 /* Game.m */; };
+		C3C481EB194B1BE800873EA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3C481EA194B1BE800873EA0 /* Foundation.framework */; };
+		C3C481ED194B1BE800873EA0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3C481EC194B1BE800873EA0 /* CoreGraphics.framework */; };
+		C3C481EF194B1BE800873EA0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3C481EE194B1BE800873EA0 /* UIKit.framework */; };
+		C3C481F5194B1BE800873EA0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3C481F3194B1BE800873EA0 /* InfoPlist.strings */; };
+		C3C481F7194B1BE800873EA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C481F6194B1BE800873EA0 /* main.m */; };
+		C3C481FB194B1BE800873EA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C481FA194B1BE800873EA0 /* AppDelegate.m */; };
+		C3C481FE194B1BE800873EA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3C481FC194B1BE800873EA0 /* Main.storyboard */; };
+		C3C48201194B1BE800873EA0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C48200194B1BE800873EA0 /* ViewController.m */; };
+		C3C48203194B1BE800873EA0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3C48202194B1BE800873EA0 /* Images.xcassets */; };
+		C3C4820A194B1BE800873EA0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3C48209194B1BE800873EA0 /* XCTest.framework */; };
+		C3C4820B194B1BE800873EA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3C481EA194B1BE800873EA0 /* Foundation.framework */; };
+		C3C4820C194B1BE800873EA0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3C481EE194B1BE800873EA0 /* UIKit.framework */; };
+		C3C48214194B1BE800873EA0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3C48212194B1BE800873EA0 /* InfoPlist.strings */; };
+		C3C48216194B1BE800873EA0 /* Ghost_HouseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C48215194B1BE800873EA0 /* Ghost_HouseTests.m */; };
+		C3D99153194CBE6700E5F395 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3D99152194CBE6700E5F395 /* AudioToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3C4820D194B1BE800873EA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3C481DF194B1BE800873EA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3C481E6194B1BE800873EA0;
+			remoteInfo = "Ghost House";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C3077B3B194B85320081F7E0 /* pillar2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pillar2.png; sourceTree = "<group>"; };
+		C31D1178194C9A0F00413F7F /* background3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background3.png; sourceTree = "<group>"; };
+		C31D117A194C9AD500413F7F /* gameover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gameover.png; sourceTree = "<group>"; };
+		C31D1D44194EF92400046EBA /* mainbackground2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mainbackground2.png; sourceTree = "<group>"; };
+		C31DECBC194EEB36003BEBCE /* boo down transparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "boo down transparent.png"; sourceTree = "<group>"; };
+		C31DECBD194EEB36003BEBCE /* boo transparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "boo transparent.png"; sourceTree = "<group>"; };
+		C31DECBE194EEB36003BEBCE /* play game transparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play game transparent.png"; sourceTree = "<group>"; };
+		C31DECBF194EEB36003BEBCE /* start transparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "start transparent.png"; sourceTree = "<group>"; };
+		C321E027194CABE500DCCD10 /* exit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = exit.png; sourceTree = "<group>"; };
+		C344B528194C1051007020E7 /* toppillar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toppillar.png; sourceTree = "<group>"; };
+		C344B52A194C105B007020E7 /* bottompillar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottompillar.png; sourceTree = "<group>"; };
+		C35762B4194B75F6000DB7F8 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Game.h; path = ../Game.h; sourceTree = "<group>"; };
+		C35762B5194B75F6000DB7F8 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Game.m; path = ../Game.m; sourceTree = "<group>"; };
+		C3C481E7194B1BE800873EA0 /* Ghost House.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ghost House.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3C481EA194B1BE800873EA0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C3C481EC194B1BE800873EA0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C3C481EE194B1BE800873EA0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C3C481F2194B1BE800873EA0 /* Ghost House-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ghost House-Info.plist"; sourceTree = "<group>"; };
+		C3C481F4194B1BE800873EA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C3C481F6194B1BE800873EA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C3C481F8194B1BE800873EA0 /* Ghost House-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ghost House-Prefix.pch"; sourceTree = "<group>"; };
+		C3C481F9194B1BE800873EA0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C3C481FA194B1BE800873EA0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C3C481FD194B1BE800873EA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C3C481FF194B1BE800873EA0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C3C48200194B1BE800873EA0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C3C48202194B1BE800873EA0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C3C48208194B1BE800873EA0 /* Ghost HouseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ghost HouseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3C48209194B1BE800873EA0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C3C48211194B1BE800873EA0 /* Ghost HouseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ghost HouseTests-Info.plist"; sourceTree = "<group>"; };
+		C3C48213194B1BE800873EA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C3C48215194B1BE800873EA0 /* Ghost_HouseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ghost_HouseTests.m; sourceTree = "<group>"; };
+		C3D99152194CBE6700E5F395 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3C481E4194B1BE800873EA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3D99153194CBE6700E5F395 /* AudioToolbox.framework in Frameworks */,
+				C3C481ED194B1BE800873EA0 /* CoreGraphics.framework in Frameworks */,
+				C3C481EF194B1BE800873EA0 /* UIKit.framework in Frameworks */,
+				C3C481EB194B1BE800873EA0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3C48205194B1BE800873EA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3C4820A194B1BE800873EA0 /* XCTest.framework in Frameworks */,
+				C3C4820C194B1BE800873EA0 /* UIKit.framework in Frameworks */,
+				C3C4820B194B1BE800873EA0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3C481DE194B1BE800873EA0 = {
+			isa = PBXGroup;
+			children = (
+				C3C481F0194B1BE800873EA0 /* Ghost House */,
+				C3C4820F194B1BE800873EA0 /* Ghost HouseTests */,
+				C3C481E9194B1BE800873EA0 /* Frameworks */,
+				C3C481E8194B1BE800873EA0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3C481E8194B1BE800873EA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3C481E7194B1BE800873EA0 /* Ghost House.app */,
+				C3C48208194B1BE800873EA0 /* Ghost HouseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3C481E9194B1BE800873EA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3D99152194CBE6700E5F395 /* AudioToolbox.framework */,
+				C3C481EA194B1BE800873EA0 /* Foundation.framework */,
+				C3C481EC194B1BE800873EA0 /* CoreGraphics.framework */,
+				C3C481EE194B1BE800873EA0 /* UIKit.framework */,
+				C3C48209194B1BE800873EA0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3C481F0194B1BE800873EA0 /* Ghost House */ = {
+			isa = PBXGroup;
+			children = (
+				C3C481F9194B1BE800873EA0 /* AppDelegate.h */,
+				C3C481FA194B1BE800873EA0 /* AppDelegate.m */,
+				C3C481FC194B1BE800873EA0 /* Main.storyboard */,
+				C3C481FF194B1BE800873EA0 /* ViewController.h */,
+				C3C48200194B1BE800873EA0 /* ViewController.m */,
+				C35762B4194B75F6000DB7F8 /* Game.h */,
+				C35762B5194B75F6000DB7F8 /* Game.m */,
+				C3C48202194B1BE800873EA0 /* Images.xcassets */,
+				C3C481F1194B1BE800873EA0 /* Supporting Files */,
+			);
+			path = "Ghost House";
+			sourceTree = "<group>";
+		};
+		C3C481F1194B1BE800873EA0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C344B528194C1051007020E7 /* toppillar.png */,
+				C344B52A194C105B007020E7 /* bottompillar.png */,
+				C3077B3B194B85320081F7E0 /* pillar2.png */,
+				C31D1178194C9A0F00413F7F /* background3.png */,
+				C31DECBC194EEB36003BEBCE /* boo down transparent.png */,
+				C31DECBD194EEB36003BEBCE /* boo transparent.png */,
+				C31D1D44194EF92400046EBA /* mainbackground2.png */,
+				C31DECBE194EEB36003BEBCE /* play game transparent.png */,
+				C31DECBF194EEB36003BEBCE /* start transparent.png */,
+				C31D117A194C9AD500413F7F /* gameover.png */,
+				C321E027194CABE500DCCD10 /* exit.png */,
+				C3C481F2194B1BE800873EA0 /* Ghost House-Info.plist */,
+				C3C481F3194B1BE800873EA0 /* InfoPlist.strings */,
+				C3C481F6194B1BE800873EA0 /* main.m */,
+				C3C481F8194B1BE800873EA0 /* Ghost House-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C3C4820F194B1BE800873EA0 /* Ghost HouseTests */ = {
+			isa = PBXGroup;
+			children = (
+				C3C48215194B1BE800873EA0 /* Ghost_HouseTests.m */,
+				C3C48210194B1BE800873EA0 /* Supporting Files */,
+			);
+			path = "Ghost HouseTests";
+			sourceTree = "<group>";
+		};
+		C3C48210194B1BE800873EA0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3C48211194B1BE800873EA0 /* Ghost HouseTests-Info.plist */,
+				C3C48212194B1BE800873EA0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3C481E6194B1BE800873EA0 /* Ghost House */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3C48219194B1BE800873EA0 /* Build configuration list for PBXNativeTarget "Ghost House" */;
+			buildPhases = (
+				C3C481E3194B1BE800873EA0 /* Sources */,
+				C3C481E4194B1BE800873EA0 /* Frameworks */,
+				C3C481E5194B1BE800873EA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ghost House";
+			productName = "Ghost House";
+			productReference = C3C481E7194B1BE800873EA0 /* Ghost House.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C3C48207194B1BE800873EA0 /* Ghost HouseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3C4821C194B1BE800873EA0 /* Build configuration list for PBXNativeTarget "Ghost HouseTests" */;
+			buildPhases = (
+				C3C48204194B1BE800873EA0 /* Sources */,
+				C3C48205194B1BE800873EA0 /* Frameworks */,
+				C3C48206194B1BE800873EA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3C4820E194B1BE800873EA0 /* PBXTargetDependency */,
+			);
+			name = "Ghost HouseTests";
+			productName = "Ghost HouseTests";
+			productReference = C3C48208194B1BE800873EA0 /* Ghost HouseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3C481DF194B1BE800873EA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = iNtend;
+				TargetAttributes = {
+					C3C48207194B1BE800873EA0 = {
+						TestTargetID = C3C481E6194B1BE800873EA0;
+					};
+				};
+			};
+			buildConfigurationList = C3C481E2194B1BE800873EA0 /* Build configuration list for PBXProject "Ghost House" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3C481DE194B1BE800873EA0;
+			productRefGroup = C3C481E8194B1BE800873EA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3C481E6194B1BE800873EA0 /* Ghost House */,
+				C3C48207194B1BE800873EA0 /* Ghost HouseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3C481E5194B1BE800873EA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3077B3D194B85320081F7E0 /* pillar2.png in Resources */,
+				C31DECC2194EEB36003BEBCE /* play game transparent.png in Resources */,
+				C31DECC3194EEB36003BEBCE /* start transparent.png in Resources */,
+				C31D1179194C9A0F00413F7F /* background3.png in Resources */,
+				C344B52B194C105B007020E7 /* bottompillar.png in Resources */,
+				C344B529194C1051007020E7 /* toppillar.png in Resources */,
+				C31DECC0194EEB36003BEBCE /* boo down transparent.png in Resources */,
+				C31D117B194C9AD500413F7F /* gameover.png in Resources */,
+				C3C48203194B1BE800873EA0 /* Images.xcassets in Resources */,
+				C321E028194CABE500DCCD10 /* exit.png in Resources */,
+				C31D1D45194EF92400046EBA /* mainbackground2.png in Resources */,
+				C31DECC1194EEB36003BEBCE /* boo transparent.png in Resources */,
+				C3C481F5194B1BE800873EA0 /* InfoPlist.strings in Resources */,
+				C3C481FE194B1BE800873EA0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3C48206194B1BE800873EA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3C48214194B1BE800873EA0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3C481E3194B1BE800873EA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3C48201194B1BE800873EA0 /* ViewController.m in Sources */,
+				C3C481FB194B1BE800873EA0 /* AppDelegate.m in Sources */,
+				C3C481F7194B1BE800873EA0 /* main.m in Sources */,
+				C35762B6194B75F6000DB7F8 /* Game.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3C48204194B1BE800873EA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3C48216194B1BE800873EA0 /* Ghost_HouseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3C4820E194B1BE800873EA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3C481E6194B1BE800873EA0 /* Ghost House */;
+			targetProxy = C3C4820D194B1BE800873EA0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C3C481F3194B1BE800873EA0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3C481F4194B1BE800873EA0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C3C481FC194B1BE800873EA0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3C481FD194B1BE800873EA0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C3C48212194B1BE800873EA0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3C48213194B1BE800873EA0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3C48217194B1BE800873EA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C3C48218194B1BE800873EA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3C4821A194B1BE800873EA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ghost House/Ghost House-Prefix.pch";
+				INFOPLIST_FILE = "Ghost House/Ghost House-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C3C4821B194B1BE800873EA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ghost House/Ghost House-Prefix.pch";
+				INFOPLIST_FILE = "Ghost House/Ghost House-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C3C4821D194B1BE800873EA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ghost House.app/Ghost House";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ghost House/Ghost House-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Ghost HouseTests/Ghost HouseTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C3C4821E194B1BE800873EA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ghost House.app/Ghost House";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ghost House/Ghost House-Prefix.pch";
+				INFOPLIST_FILE = "Ghost HouseTests/Ghost HouseTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3C481E2194B1BE800873EA0 /* Build configuration list for PBXProject "Ghost House" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3C48217194B1BE800873EA0 /* Debug */,
+				C3C48218194B1BE800873EA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3C48219194B1BE800873EA0 /* Build configuration list for PBXNativeTarget "Ghost House" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3C4821A194B1BE800873EA0 /* Debug */,
+				C3C4821B194B1BE800873EA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3C4821C194B1BE800873EA0 /* Build configuration list for PBXNativeTarget "Ghost HouseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3C4821D194B1BE800873EA0 /* Debug */,
+				C3C4821E194B1BE800873EA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3C481DF194B1BE800873EA0 /* Project object */;
+}

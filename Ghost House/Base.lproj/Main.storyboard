@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mainbackground2.png" translatesAutoresizingMaskIntoConstraints="NO" id="6Hi-Ng-tjP">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=":" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qhd-yt-Tjb">
+                                <rect key="frame" x="160" y="511" width="110" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="25"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hiz-X6-fug">
+                                <rect key="frame" x="123" y="464" width="74" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="play game transparent.png">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="QHK-FD-UYG" kind="modal" id="kW4-DF-mQp"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="HighScore" destination="Qhd-yt-Tjb" id="xtL-Nz-CBr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--Game-->
+        <scene sceneID="fbo-gA-eOQ">
+            <objects>
+                <viewController id="QHK-FD-UYG" customClass="Game" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="oq0-p3-skO"/>
+                        <viewControllerLayoutGuide type="bottom" id="DgT-Iw-BhX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="IrL-dA-6FP">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background3.png" translatesAutoresizingMaskIntoConstraints="NO" id="yhR-0u-YDA">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pillar2.png" translatesAutoresizingMaskIntoConstraints="NO" id="bGr-Sq-bly">
+                                <rect key="frame" x="210" y="307" width="50" height="500"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="boo transparent.png" translatesAutoresizingMaskIntoConstraints="NO" id="vFV-ND-B2b">
+                                <rect key="frame" x="19" y="264" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yee-Lb-edx">
+                                <rect key="frame" x="97" y="471" width="127" height="67"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="start transparent.png"/>
+                                <connections>
+                                    <action selector="StartGame:" destination="QHK-FD-UYG" eventType="touchUpInside" id="VWL-lY-1Ld"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pillar2.png" translatesAutoresizingMaskIntoConstraints="NO" id="eMI-vB-sIo">
+                                <rect key="frame" x="210" y="-274" width="50" height="500"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bottompillar.png" translatesAutoresizingMaskIntoConstraints="NO" id="tqJ-Sx-2Lt">
+                                <rect key="frame" x="0.0" y="546" width="320" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="toppillar.png" translatesAutoresizingMaskIntoConstraints="NO" id="FYW-bB-So4">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LtA-yk-6Zs">
+                                <rect key="frame" x="131" y="286" width="58" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="exit.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="vXZ-lx-hvc" kind="modal" id="dQ1-9V-Fsa"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Ea-v7-HEV">
+                                <rect key="frame" x="13" y="94" width="96" height="96"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="80"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PnU-sF-6K9">
+                                <rect key="frame" x="141" y="175" width="0.0" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gameover.png" translatesAutoresizingMaskIntoConstraints="NO" id="GDo-JJ-TrW">
+                                <rect key="frame" x="97" y="198" width="127" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="Boo" destination="vFV-ND-B2b" id="gNh-Ao-19f"/>
+                        <outlet property="Bottom" destination="tqJ-Sx-2Lt" id="HLw-wr-daa"/>
+                        <outlet property="Exit" destination="LtA-yk-6Zs" id="Bde-Sj-CvH"/>
+                        <outlet property="GameOverNotice" destination="GDo-JJ-TrW" id="N4X-Uj-vwf"/>
+                        <outlet property="PillarBottom" destination="bGr-Sq-bly" id="5s4-ug-v1g"/>
+                        <outlet property="PillarTop" destination="eMI-vB-sIo" id="ebk-ey-GRh"/>
+                        <outlet property="ScoreLabel" destination="4Ea-v7-HEV" id="uCS-wM-ByG"/>
+                        <outlet property="StartGame" destination="yee-Lb-edx" id="b06-wq-vf2"/>
+                        <outlet property="Top" destination="FYW-bB-So4" id="iOl-zn-JfV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DIu-Zm-DAR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="883" y="111"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background3.png" width="320" height="480"/>
+        <image name="boo transparent.png" width="32" height="32"/>
+        <image name="bottompillar.png" width="320" height="30"/>
+        <image name="exit.png" width="40" height="19"/>
+        <image name="gameover.png" width="126" height="24"/>
+        <image name="mainbackground2.png" width="320" height="480"/>
+        <image name="pillar2.png" width="50" height="500"/>
+        <image name="play game transparent.png" width="150" height="30"/>
+        <image name="start transparent.png" width="154" height="48"/>
+        <image name="toppillar.png" width="321" height="18"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
